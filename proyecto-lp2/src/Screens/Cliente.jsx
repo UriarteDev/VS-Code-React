@@ -182,7 +182,7 @@ const Cliente = () => {
     <div className="container mt-4">
       <div className="row justify-content-center">
         <div className="col-lg-12">
-          <h1 className="mb-4">Datos de la API tutorias</h1>
+          <h1 className="mb-4">Datos del Cliente</h1>
           {error ? <p>Error: {error}</p> : null}
           {(successMessage || errorMessage) && (
             <div className={`alert ${successMessage ? 'alert-success' : 'alert-danger'}`}>
