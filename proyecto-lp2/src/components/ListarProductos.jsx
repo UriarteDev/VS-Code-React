@@ -23,6 +23,10 @@ export const ListarProductos = () => {
         });
     }, []);
 
+    const handleCompra = () => {
+      alert('compra realizada');
+    };
+
   return (
     
     <div className="container mb-5 mt-5">
@@ -38,7 +42,7 @@ export const ListarProductos = () => {
                 <li>Costo: ${item.precio}</li>
                 <li>Unidades: {item.stock}</li>
               </ul>
-              <button type="button" className="card-button">Comprar</button>
+              <button onClick={handleCompra} type="button" className="card-button">Comprar</button>
             </div>
           </div>
         ))}

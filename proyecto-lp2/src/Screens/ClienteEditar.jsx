@@ -7,7 +7,7 @@ const ClienteEditar = ({ show, onClose, onSave, editData, handleInputChange }) =
     <div className="modal-dialog" role="document">
       <div className="modal-content">
         <div className="modal-header">
-          <h5 className="modal-title">Editar Persona</h5>
+          <h5 className="modal-title">Editar Cliente</h5>
           
         </div>
         <div className="modal-body">

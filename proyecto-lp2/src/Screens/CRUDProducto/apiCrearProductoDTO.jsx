@@ -1,6 +1,6 @@
 
 export const createProducto = (productoDTO) => {
-    return fetch(`http://localhost:8080/persona/create`, {
+    return fetch(`http://localhost:8080/producto/create`, {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',

@@ -140,7 +140,6 @@ const Producto = () => {
     }
     createProducto(newProducto)
       .then((createProducto) =>{
-        //console.log('Persona creada ', createPersona);
         setSuccessMessage('Producto creada exitosamente.');
         setNewProducto({
           idProveedor: '',
